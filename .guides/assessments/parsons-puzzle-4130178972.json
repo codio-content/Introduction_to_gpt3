@@ -1,0 +1,31 @@
+{
+	"source": {
+		"name": "OpenAI model",
+		"showName": false,
+		"instructions": "Drag and drop **ONLY** the necessary code in the box below. As this is python code, Please make sure to indent your code. ",
+		"initial": "import openai\nprompts = &#039;name the largest country&#039;\nresponse = openai.Completion.create(\n  model=&quot;text-ada-001&quot;\n  , prompt=prompts)\nprint(response[&#039;choices&#039;][0][&#039;text&#039;].strip()) \n model=&quot;text-curie-001&quot;#distractor\n model=&quot;text-babage-001&quot;#distractor\n model=&quot;text-davinci-001&quot;#distractor\n print(response)#distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"grader": "1",
+		"guidance": "The lowest cost model is `ada` and we have to use `print(response['choices'][0]['text'].strip())` in order to print and clean the message being generated. ",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "parsons-puzzle-4130178972",
+	"type": "parsons-puzzle"
+}

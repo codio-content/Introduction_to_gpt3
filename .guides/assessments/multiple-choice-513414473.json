@@ -1,0 +1,67 @@
+{
+	"source": {
+		"name": "large language models",
+		"showName": false,
+		"instructions": "**If you are using a pre-trained model, why does your hardware often need to exceed the minimum requirements?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "b45a84ac-2731-edfd-2611-8ea96bcc01ac",
+				"correct": true,
+				"answer": "Pre-trained models can still be based on very large data sets which require powerful machines."
+			},
+			{
+				"_id": "c21152ba-18f1-153a-c2f4-aaec58a49e19",
+				"correct": false,
+				"answer": "Trick question, pre-trained models are more efficient and do not require powerful machines."
+			},
+			{
+				"_id": "b0061c6b-06fd-6a49-9faf-92f8f9c03afe",
+				"correct": false,
+				"answer": "Building a model requires a powerful machine."
+			},
+			{
+				"_id": "3a92ca13-9c7f-4802-7b8f-81aa6dd282fb",
+				"correct": false,
+				"answer": "Training a model requires a powerful machine."
+			}
+		],
+		"guidance": "The correct answer is:\n\n>Pre-trained models can still be based on very large data sets which require powerful machines.\n\nDespite the hard work that goes into training a language model, they are still based on very large datasets. The GPT-3 model was trained on 45 terabytes of text, making it one of the largest pre-trained models available. Using this model can stress systems that meet the minimum hardware requirements",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Large Langauage Models"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT explain why pre-trained models still need a powerful machine"
+	},
+	"taskId": "multiple-choice-513414473",
+	"type": "multiple-choice"
+}

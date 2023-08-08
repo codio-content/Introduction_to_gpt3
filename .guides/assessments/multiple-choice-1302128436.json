@@ -1,0 +1,75 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "4845c61a-7da2-1c8d-4a32-738b46acd567",
+				"answer": "The prompt does not need to follow grammatical rules in order to produce quality results.",
+				"correct": true
+			},
+			{
+				"_id": "f26683aa-f61d-f253-bfaf-f02ce320dba3",
+				"answer": "The prompt must follow all grammatical rules in order to produce quality results.",
+				"correct": false
+			},
+			{
+				"_id": "23d5bbc0-4e98-eaa7-4812-0715bb126973",
+				"answer": "The prompt must be in English in order to produce quality results.",
+				"correct": false
+			},
+			{
+				"_id": "3a2f19e1-0cf1-584a-7047-a69db6fd3317",
+				"answer": "The prompt must follow the rules of the Python language in order to produce quality results.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "2",
+		"guidance": "One of the benefits of a model like GPT-3 is that it does not require prompts to conform to a strict set of standards. You can write prompts with capitalization and punctuation mistakes. You do not need to write the prompt in English. Nor do you need to write in a special syntax (like Python). The GPT-3 model understands natural language, even if it is poorly written.",
+		"incorrectPoints": 0,
+		"instructions": "**Select the ++best++ description of the prompt so that the GPT-3 model produces quality results.**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT describe a prompt for the GPT-3 model",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"box.txt"
+			],
+			"opened": [
+				{
+					"content": "box.txt",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "GPT-3"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "gpt-3",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1302128436",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "box.txt",
+			"action": "open"
+		}
+	],
+	"id": "b4387605-7b23-02e7-b24b-bae108a881e6",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "GPT-3",
+	"type": "page"
+}

@@ -1,0 +1,67 @@
+{
+	"source": {
+		"name": "design decisions",
+		"showName": false,
+		"instructions": "**What factors should be considered when deciding on how to analyze text? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "ed20ae32-ab94-5631-faad-f0ce1fa45247",
+				"correct": true,
+				"answer": "Language model"
+			},
+			{
+				"_id": "3d40db14-b8c7-55bf-47aa-5fbb23d6ccde",
+				"correct": true,
+				"answer": "Source of text"
+			},
+			{
+				"_id": "3d3864e7-481b-4b03-b181-40e4ed8949b1",
+				"correct": true,
+				"answer": "Context of deployment"
+			},
+			{
+				"_id": "822a5f0c-fabe-21a4-5347-87a5ed7fd2b3",
+				"correct": false,
+				"answer": "Programming language"
+			}
+		],
+		"guidance": "The correct answers are:\n* Language model\n* Source of text\n* Context of deployment\n\nProgramming language is not really a factor for NLP. With regards to OpenAI, they provide documentation for using their API with Python and Node. There are community projects that allow you to use the OpenAI API with Dart, Java, Go, and many other languages.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Language Model"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify the factors to decide when choosing a means to analyze text"
+	},
+	"taskId": "multiple-choice-3087285396",
+	"type": "multiple-choice"
+}

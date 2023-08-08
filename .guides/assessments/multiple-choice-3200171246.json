@@ -1,0 +1,80 @@
+{
+	"source": {
+		"name": "setting up",
+		"showName": false,
+		"instructions": "**What must be done ++before++ you can use OpenAI's GPT-3 model? Select all that apply**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "5530b39b-baba-ec98-933b-f927b53be17a",
+				"correct": true,
+				"answer": "Create an account on OpenAI"
+			},
+			{
+				"_id": "9c6c92f9-f744-2b76-7a15-bd32458ab9a1",
+				"correct": true,
+				"answer": "Import the OpenAI package"
+			},
+			{
+				"_id": "48edf925-21c0-087d-931a-4e60cf2e7421",
+				"correct": true,
+				"answer": "Install the OpenAI package"
+			},
+			{
+				"_id": "aba183dd-7587-5d7d-82bc-013f8d257d07",
+				"correct": true,
+				"answer": "Add your API key to your code"
+			}
+		],
+		"guidance": "All of these tasks must be done before you can write code using the GPT-3 model. First, you have to create an account with OpenAI. Then you need to copy your API key and add it to your coding file. Then you need to install the `openai` package. Finally, you need to import `openai`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Setting Up"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			],
+			"files": [
+				"secret.py",
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "secret.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the tasks that must be performed before using the GPT-3 model"
+	},
+	"taskId": "multiple-choice-3200171246",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "temp.py",
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"id": "c48b077c-39b3-ff34-449c-3e046ab8e853",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Setting Up 2",
+	"type": "page"
+}

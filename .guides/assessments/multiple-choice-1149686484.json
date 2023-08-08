@@ -1,0 +1,67 @@
+{
+	"source": {
+		"name": "nlp definition",
+		"showName": false,
+		"instructions": "**Select the ++best++ definition of NLP.**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "7bcfab90-397c-6aa2-477b-f4d292efad66",
+				"correct": true,
+				"answer": "The ability for computers to interpret written and spoken words like a human."
+			},
+			{
+				"_id": "b2598af2-708a-0dc9-4509-a3a3452cecbd",
+				"correct": false,
+				"answer": "The ability for computers to interpret written words like a human."
+			},
+			{
+				"_id": "ec9dc376-2bb8-097c-fa0f-00a3bff098b9",
+				"correct": false,
+				"answer": "The ability for computers to interpret spoken words like a human."
+			},
+			{
+				"_id": "937c9570-18d0-97f1-498b-df9262627438",
+				"correct": false,
+				"answer": "The ability for humans to interpret written and spoken words like a computer."
+			}
+		],
+		"guidance": "Natural language processing is when computers can understand both written and spoken words like a human. Computers do not have to perform both tasks at the same time. Chatbots work with written text, while virtual assistants like Siri and Alexa primarily work with spoken words.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				},
+				{
+					"name": "Content",
+					"value": "NLP"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT define NLP"
+	},
+	"taskId": "multiple-choice-1149686484",
+	"type": "multiple-choice"
+}

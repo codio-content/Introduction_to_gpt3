@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "OpenAI GPT-3 models",
+		"showName": false,
+		"instructions": "**Fill in the blank with the right model.**\n\n",
+		"showValues": true,
+		"text": "- <<<davinci>>> is the most capable GPT-3 model. \n- <<<ada>>> is the fastest and lowest cost model\n- <<<davinci>>> uses the most recent set of data for training",
+		"distractors": "curie\nbabbage",
+		"guidance": "The `davinci` model is the most capable and has the most recent training data. The `ada` model is the fastest and lowest cost model of the four.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "Models"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			],
+			"files": [
+				"box.txt",
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "box.txt"
+				},
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT differentiate the different GPT-3 models",
+		"tokens": {
+			"blank": [
+				"davinci",
+				"ada",
+				"davinci"
+			],
+			"text": [
+				"- ",
+				0,
+				" is the most capable GPT-3 model. \n- ",
+				0,
+				" is the fastest and lowest cost model\n- ",
+				0,
+				" uses the most recent set of data for training"
+			],
+			"regexPositions": []
+		}
+	},
+	"taskId": "fill-in-the-blanks-1669896248",
+	"type": "fill-in-the-blanks"
+}

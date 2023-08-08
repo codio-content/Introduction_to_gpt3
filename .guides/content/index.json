@@ -1,0 +1,28 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-f0a9",
+		"NLP-5dba",
+		"Language-Model-9701",
+		"Large-Language-Models-9386",
+		"OpenAI-3ec1",
+		"Setting-Up-55c4",
+		"Setting-Up-2-c48b",
+		"GPT-3-b438",
+		"Models-6fc6",
+		"Testing-GPT-3-b042",
+		"Coding-Exercise--12c5"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Introduction to GPT-3",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

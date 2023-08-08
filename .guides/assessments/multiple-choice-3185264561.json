@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "testing gpt-3",
+		"showName": false,
+		"instructions": "**How do you pass a prompt to the OpenAI API?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "bb5b5df3-4662-076a-b9fd-2e63fe7a9144",
+				"correct": true,
+				"answer": "Prompts are passed as strings"
+			},
+			{
+				"_id": "5519a008-1c4b-2036-959e-0e06a23b8a1d",
+				"correct": false,
+				"answer": "Prompts are passed as JSON"
+			},
+			{
+				"_id": "78a0a347-2c2a-8925-3028-309c2e5e86ce",
+				"correct": false,
+				"answer": "Prompts are passed as a list of strings"
+			},
+			{
+				"_id": "a4ae160c-cc50-523d-0d96-3e422908f195",
+				"correct": false,
+				"answer": "Prompts are passed as a dictionary"
+			}
+		],
+		"guidance": "The OpenAI API is very user-friendly. Prompts are passed as a simple string. You do not have to worry about wrapping the string in a list, JSON, dictionary, or the like.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "OpenAI API"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			],
+			"files": [
+				"test.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "test.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify how prompts are passed to the OpenAI API"
+	},
+	"taskId": "multiple-choice-3185264561",
+	"type": "multiple-choice"
+}

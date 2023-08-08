@@ -1,0 +1,65 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "1",
+		"distractors": "variables\ncorpora\npre-trained model\nGPT",
+		"guidance": "The correct answers are:\n\n* **parameters** - settings that determine the behavior of a machine learning model\n* **transformer model** - system that processes a sequence of text\n* **corpus** - single collection of texts\n* **neural network** - system with weighted inputs and outputs",
+		"instructions": "**Fill in the blanks below.**",
+		"learningObjectives": "SWBAT identify some of the main components that make up GPT-2",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "GPT and GPT-2"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "Introduction to GPT-3"
+				}
+			]
+		},
+		"name": "GPT and GPT-2",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "* \u003c\u003c\u003cparameters\u003e\u003e\u003e - settings that determine the behavior of a machine learning model\n* \u003c\u003c\u003ctransformer model\u003e\u003e\u003e - system that processes a sequence of text\n* \u003c\u003c\u003ccorpus\u003e\u003e\u003e - single collection of texts\n* \u003c\u003c\u003cneural network\u003e\u003e\u003e - system with weighted inputs and outputs",
+		"tokens": {
+			"blank": [
+				"parameters",
+				"transformer model",
+				"corpus",
+				"neural network"
+			],
+			"regexPositions": [],
+			"text": [
+				"* ",
+				0,
+				" - settings that determine the behavior of a machine learning model\n* ",
+				0,
+				" - system that processes a sequence of text\n* ",
+				0,
+				" - single collection of texts\n* ",
+				0,
+				" - system with weighted inputs and outputs"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-2436065814",
+	"type": "fill-in-the-blanks"
+}

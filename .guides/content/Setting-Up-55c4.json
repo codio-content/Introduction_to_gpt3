@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "secret.py",
+			"action": "open"
+		}
+	],
+	"id": "55c44bc8-5651-99e2-b8a9-a3388bf581ae",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Setting Up",
+	"type": "page"
+}
